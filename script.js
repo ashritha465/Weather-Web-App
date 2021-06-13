@@ -18,7 +18,7 @@ async function getWeatherByLocation(city) {
 //STEP 3
 function addWeatherToPage(data) {
     const temp = KtoC(data.main.temp);
- s//STEP 5
+ //STEP 5
     const weather = document.createElement("div");
     weather.classList.add("weather");
 
